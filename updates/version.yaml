@@ -1,0 +1,8 @@
+1.0.0:
+    - 'First version of Sm'
+1.0.1:
+    - 'Create Contacts Table'
+    - v1.0.1/create_contacts_table.php
+1.0.2:
+    - 'Create Projects Table'
+    - v1.0.2/create_projects_table.php

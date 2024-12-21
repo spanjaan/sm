@@ -1,0 +1,12 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    email:
+        label: spanjaan.sm::lang.models.contact.email_address
+        disabled: false
+    projects:
+        label: spanjaan.sm::lang.models.contact.project
+        type: relation
+

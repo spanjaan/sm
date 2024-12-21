@@ -1,0 +1,33 @@
+# ===================================
+#  List Column Definitions
+# ===================================
+
+columns:
+    id:
+        label: 'spanjaan.sm::lang.models.general.id'
+        searchable: true
+    email:
+        label: spanjaan.sm::lang.models.contact.email_address
+        searchable: true
+    latitude:
+        label: spanjaan.sm::lang.models.contact.latitude
+        searchable: true
+    longitude:
+        label: spanjaan.sm::lang.models.contact.longitude
+        searchable: true
+    projects:
+        label: spanjaan.sm::lang.models.contact.project
+        relation: projects
+        select: name
+        searchable: true
+    created_at:
+        label: 'spanjaan.sm::lang.models.general.created_at'
+        type: datetime
+        searchable: true
+        sortable: true
+        invisible: true
+    updated_at:
+        label: 'spanjaan.sm::lang.models.general.updated_at'
+        type: datetime
+        searchable: true
+        sortable: true

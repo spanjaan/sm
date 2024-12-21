@@ -1,0 +1,27 @@
+{
+    "name": "spanjaan/sm",
+    "type": "winter-plugin",
+    "description": "A simple and efficient way to manage your subscribers in WinterCMS.",
+    "keywords": ["wintercms", "cms", "subscription", "plugin", "subscribe", "spanjaan"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sudarshan Pudasaini",
+            "email": "spanjaan@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=8.1",
+        "composer/installers": "^2.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true,
+        "allow-plugins": {
+            "composer/installers": true
+        }
+    },
+    "minimum-stability": "stable",
+    "prefer-stable": true
+}

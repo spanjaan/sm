@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: 'spanjaan.sm::lang.models.contact.label'
+
+# Model Form Field configuration
+form: $/spanjaan/sm/models/contact/fields.yaml
+
+# Model Class name
+modelClass: SpAnjaan\Sm\Models\Contact
+
+# Default redirect location
+defaultRedirect: spanjaan/sm/contacts
+
+# Create page
+create:
+    title: backend::lang.form.create_title
+    redirect: spanjaan/sm/contacts/update/:id
+    redirectClose: spanjaan/sm/contacts
+
+# Update page
+update:
+    title: backend::lang.form.update_title
+    redirect: spanjaan/sm/contacts
+    redirectClose: spanjaan/sm/contacts
+
+# Preview page
+preview:
+    title: backend::lang.form.preview_title

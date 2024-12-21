@@ -1,0 +1,11 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: spanjaan.sm::lang.models.project.label
+        disabled: false
+    color:
+        label: spanjaan.sm::lang.models.project.project_color
+        type: colorpicker
