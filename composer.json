@@ -1,5 +1,5 @@
 {
-    "name": "spanjaan/sm",
+    "name": "spanjaan/wn-sm-plugin",
     "type": "winter-plugin",
     "description": "A simple and efficient way to manage your subscribers in WinterCMS.",
     "keywords": ["wintercms", "cms", "subscription", "plugin", "subscribe", "spanjaan"],
